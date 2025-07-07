@@ -1,0 +1,89 @@
+/* 
+    * File: css/style.css
+    * Description: Styles for the digital ID card
+*/
+body {
+      margin: 0; /** Reset default margin */
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /** Use a clean, modern font */
+      background-color: #f4f4f4; /** Light background for contrast */
+      color: #333; /** Dark text for readability */
+      line-height: 1.6; /** Increase line height for better readability */
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    figure {
+      margin: 1rem auto 0;
+      width: 200px;
+    }
+
+    figure img {
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    figcaption {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin: 2rem 0;
+    }
+
+    section h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.3rem;
+    }
+
+    ul, dl {
+      margin-left: 1.5rem;
+    }
+
+    ul li, dd {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 2rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2c3e50;
+      color: #fff;
+      margin-top: 2rem;
+    }
